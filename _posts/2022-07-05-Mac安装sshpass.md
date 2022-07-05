@@ -1,12 +1,12 @@
 ---
 title: Mac安装sshpass
-date: 2022-07-05 11:16:30
+date: 2022-07-05
 tags: [iOS,越狱插件开发]
 ---
 
 
 
-#### 下载&解压
+#### 下载 && 解压
 
 ```shell
 https://sourceforge.net/projects/sshpass/
