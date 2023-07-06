@@ -13,16 +13,20 @@ categories: 逆向技术
 #### 1、下载`MachOStaticPatcher`
 
 ```shell
-git clone https://github.com/jmpews/Dobby/tree/793b9c3bd11d7666eb8ca186e2ddea7072f92f73/Plugins/MachOStaticPatcher
+# 下载
+wget --no-check-certificate --content-disposition https://github.com/jmpews/Dobby/archive/793b9c3bd11d7666eb8ca186e2ddea7072f92f73.zip
+
+# 解压
+unzip Dobby-793b9c3bd11d7666eb8ca186e2ddea7072f92f73.zip
 ```
 
 #### 2、编译
 
 ```shell
 # 编译MachOStaticPatcher
-cd HookZz/Plugins/MachOStaticPatcher
-mkdir build
-cmake .. -DHOOKZZ_SOURCE_DIR=/path/HookZz
+cd Dobby-793b9c3bd11d7666eb8ca186e2ddea7072f92f73/Plugins/MachOStaticPatcher
+mkdir build && cd build
+cmake .. -DHOOKZZ_SOURCE_DIR=../../../
 make -j4
 ```
 
