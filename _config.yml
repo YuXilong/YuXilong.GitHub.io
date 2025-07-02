@@ -18,9 +18,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Fish💦                       # the main title
+title: Fish.                       # the main title
 
-tagline: 迟迟钟鼓初长夜，耿耿星河欲曙天。   # it will display as the sub-title
+tagline: 梦虽遥，追则能达。 愿虽艰，持则可圆。   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
